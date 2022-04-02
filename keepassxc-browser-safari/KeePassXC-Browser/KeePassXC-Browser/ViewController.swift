@@ -11,7 +11,7 @@ import SafariServices.SFSafariExtensionManager
 import os.log
 
 let appName = "KeePassXC-Browser"
-let extensionBundleIdentifier = "com.keepassxreboot.KeePassXC-Browser-Extension"
+let extensionBundleIdentifier = "com.keepassxc.KeePassXC-Browser-Extension"
 
 class ViewController: NSViewController {
 
@@ -48,13 +48,4 @@ class ViewController: NSViewController {
             }
         }
     }
-    
-    @IBAction func sendMessageToExtension(_ sender: AnyObject?) {
-        let messageName = "Hello from App"
-        let messageInfo = ["AdditionalInformation":"Goes Here"]
-        SFSafariApplication.dispatchMessage(withName: messageName, toExtensionWithIdentifier: extensionBundleIdentifier, userInfo: messageInfo) { error in
-            debugPrint("Message attempted. Error info: \(String.init(describing: error))")
-        }
-    }
-
 }

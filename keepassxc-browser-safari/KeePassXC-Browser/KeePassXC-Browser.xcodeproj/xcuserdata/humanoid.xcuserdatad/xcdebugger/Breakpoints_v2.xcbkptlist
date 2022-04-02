@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B49A6D5D-E739-4555-A894-B8DABCEE76DE"
-            shouldBeEnabled = "Yes"
+            uuid = "632DA81F-6423-4E70-BF9D-7B9123FD8B99"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KeePassXC-Browser Extension/SafariWebExtensionHandler.swift"
+            filePath = "KeePassXC-Browser/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "beginRequest(with:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "openSafariExtensionPreferences(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46136913-F5B6-4DC8-A3C5-F1C644D19935"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KeePassXC-Browser/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "openSafariExtensionPreferences(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
