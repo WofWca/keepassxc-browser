@@ -7,7 +7,8 @@
     "@playwright/test": "^1.20.0",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint-plugin-import": "^2.24.2",
+    "minimize-webext-i18n-json": "^2.0.0"
   },
   "dependencies": {
     "file-url": "^3.0.0",
